@@ -6,15 +6,9 @@ import javax.persistence.Table
 
 
 @Entity
-class Car (
+class Employee (
     @Id
-    var plate: String,
+    var login: String,
 
-    var name: String,
-
-    var owner: String,
-
-    var telephone: Int,
-
-    var address: String
+    var password: String
 )

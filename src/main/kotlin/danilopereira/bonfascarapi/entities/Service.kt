@@ -2,8 +2,8 @@ package danilopereira.bonfascarapi.entities
 
 import javax.persistence.*
 
+
 @Entity
-@Table(name = "services")
 class Service (
     @field:Id
     @field:GeneratedValue(strategy = GenerationType.IDENTITY)
