@@ -1,7 +1,6 @@
 package danilopereira.bonfascarapi.controllers
 
 import danilopereira.bonfascarapi.entities.Car
-import danilopereira.bonfascarapi.entities.Service
 import danilopereira.bonfascarapi.repositories.CarRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.*

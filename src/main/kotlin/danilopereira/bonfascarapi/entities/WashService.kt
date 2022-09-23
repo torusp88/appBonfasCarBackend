@@ -1,10 +1,14 @@
 package danilopereira.bonfascarapi.entities
 
 import javax.persistence.*
+import javax.persistence.Entity
+import javax.persistence.Id
+import javax.persistence.Table
 
 
 @Entity
-class Service (
+@Table(name = "wash_services")
+data class WashService (
     @field:Id
     @field:GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long,

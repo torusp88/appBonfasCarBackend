@@ -6,7 +6,8 @@ import javax.persistence.Table
 
 
 @Entity
-class Car (
+@Table(name = "cars")
+data class Car (
     @Id
     var plate: String,
 
